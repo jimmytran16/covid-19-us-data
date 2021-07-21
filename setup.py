@@ -4,7 +4,7 @@ import os
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 DESCRIPTION = 'A COVID-19 web scrapping tool used to scrap data from the Worldometer website of US cases'
 
 # Setting up
