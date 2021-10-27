@@ -17,4 +17,5 @@ from covid19.scrape import COVID   #import the COVID class
 
 covid = COVID()                    #instansiate the COVID instance
 data = covid.get_covid_data()      #call the get_covid_data function to get the data
+# format of data = [ <stateName>: [<0:totalCases>, <1:newCases>, <2:totalDeaths>, <3:newDeaths>, <4:totalRecovered>, <5:activeCases>, <6:totalCases/1M pop>, <7: Deaths / 1M pop>, <8:Test/ 1M pops>, <9:population>, <10:projections>], ... ]
 ```
